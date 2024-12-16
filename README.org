@@ -1,0 +1,14 @@
+#+TITLE: org-comments
+#+AUTHOR: laluxx
+
+* Install
+Clone it
+#+begin_src shell
+git clone https://github.com/laluxx/org-comments ~/.config/emacs/lisp/org-comments
+#+end_src
+
+Add to init.el
+#+begin_src elisp
+(use-package org-comments
+  :load-path "~/.config/emacs/lisp/org-comments")
+#+end_src
