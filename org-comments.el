@@ -16,7 +16,7 @@
 
 ;; [ ] TODO Implement `org-comments-insert-todo' insert it correctly based on contex
 ;; [ ] TODO Option to go to the next line when we call dwim on this and not that
-;; [ ] TODO Syntax highlighting for checkboxes
+;; [ ] TODO Syntax highlighting for checkboxes require `org-faces'
 ;; [x] DONE Hierarchical TODO's
 
 ;; TODO [0/4] Keybinds 
@@ -26,7 +26,7 @@
 ;; [ ] TODO `org-comments-meta-right' M-<right> 
 
 ;; This package brings `org-mode' to `prog-mode' trought comments 
-;; It currently supports only C and elisp
+;; It currently supports only C (maybe) and elisp
 
 ;;; Code:
 (defgroup org-comments nil

@@ -12,3 +12,6 @@ Add to init.el
 (use-package org-comments
   :load-path "~/.config/emacs/lisp/org-comments")
 #+end_src
+
+* Demo
+[[./demo.gif]]
